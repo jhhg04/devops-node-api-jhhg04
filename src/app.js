@@ -7,4 +7,6 @@ app.get('/', (req, res) => {
   res.send('API running');
 });
 
+app.use('/', healthRoute);
+
 module.exports = app;
