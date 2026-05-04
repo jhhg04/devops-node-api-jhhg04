@@ -6,3 +6,4 @@ COPY package*.json ./
 RUN npm install
 
 # ---- Application code ----
+COPY . .
