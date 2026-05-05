@@ -7,3 +7,5 @@ RUN npm install
 
 # ---- Application code ----
 COPY . .
+
+# ---- Runtime ----
