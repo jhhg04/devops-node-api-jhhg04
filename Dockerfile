@@ -9,3 +9,4 @@ RUN npm install
 COPY . .
 
 # ---- Runtime ----
+EXPOSE 3000
